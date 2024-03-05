@@ -4,7 +4,7 @@ import { formatCurrency } from '../services/helpers';
 import { img_base_url } from '../services/supabase';
 import CartEmpty from '../ui/CartEmpty';
 import CartHero from '../ui/CartHero';
-import Spinner from '../ui/spinner';
+import Spinner from '../ui/Spinner';
 
 export default function Cart() {
     const { cart, isLoading } = useCart();

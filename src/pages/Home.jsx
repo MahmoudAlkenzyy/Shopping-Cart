@@ -1,7 +1,7 @@
 import { useProducts } from './../hooks/useProducts';
 import Slider from '../ui/Slider';
 import { useAccessories } from '../hooks/useAccessories';
-import Spinner from '../ui/spinner';
+import Spinner from '../ui/Spinner';
 import HomeHero from '../ui/HomeHero';
 
 export default function Home() {
